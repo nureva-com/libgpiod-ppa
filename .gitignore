@@ -1,1 +1,5 @@
+# Working directory that is used to build the package
 .wrk/
+
+# GPG Key files 
+* .asc

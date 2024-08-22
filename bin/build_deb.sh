@@ -86,7 +86,7 @@ EOF
 
 # Add control text to dev package
 cat << EOF > $DEV_PACKAGE_DIR/DEBIAN/control 
-Package: libgpiod$LIBGPIOD_VERSION
+Package: libgpiod$LIBGPIOD_VERSION-dev
 Version: $LIBGPIOD_VERSION
 Section: universe/libs
 Priority: optional
