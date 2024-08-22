@@ -8,9 +8,9 @@ LIBGPIOD_VERSION=2.1.3
 ARCH=$(uname -m)
 
 # Check that all needed packages are installed
-INSTALL_COUNT=$(dpkg-query -l build-essential libtool autoconf | grep "ii" -c)
-if  [ $INSTALL_COUNT -ne 3 ]; then
-    echo "Please run 'sudo apt install -y build-essential libtool autoconf dpkg git' to install dependencies"
+INSTALL_COUNT=$(dpkg-query -l build-essential libtool pkg-config autoconf autoconf-archive | grep "ii" -c)
+if  [ $INSTALL_COUNT -ne 5 ]; then
+    echo "Please run 'sudo apt install -y build-essential libtool pkg-config autoconf autoconf-archive dpkg git' to install dependencies"
     exit 1
 fi
 
@@ -32,13 +32,6 @@ else
 fi
 
 echo "Building libgpiod for $ARCH_SUFFIX..."
-
-# We need autoconf-archive for x86_64 with wsl 22.04 LTS
-INSTALL_COUNT=$(dpkg-query -l autoconf-archive | grep "ii" -c ) 
-if  [[ $INSTALL_COUNT -ne 1 && "$ARCH_SUFFIX" == "amd64" ]]; then
-    echo "Please run 'sudo apt install -y autoconf-archive' to install dependencies"
-    exit 1
-fi
 
 WRK_DIR=$PWD/.wrk
 BUILD_DIR=$WRK_DIR/build
@@ -85,7 +78,7 @@ Section: universe/libs
 Priority: optional
 Source: libgpiod$LIBGPIOD_VERSION
 Architecture: $ARCH_SUFFIX
-Depends: libstdc++6 (>= 12.3.0), libgcc-s1 (>= 9.4.0), libc6 (>= 2.4)
+Depends: libc6 (>= 2.4)
 Maintainer: Alejandro Mata <alejandromata@nureva.com>
 Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
 Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
@@ -99,7 +92,7 @@ Section: universe/libs
 Priority: optional
 Source: libgpiod$LIBGPIOD_VERSION
 Architecture: $ARCH_SUFFIX
-Depends: libstdc++6 (>= 12.3.0), libgcc-s1 (>= 9.4.0), libc6 (>= 2.4)
+Depends: libc6 (>= 2.4)
 Maintainer: Alejandro Mata <alejandromata@nureva.com>
 Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
 Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
