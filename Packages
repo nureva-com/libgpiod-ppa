@@ -1,22 +1,6 @@
 Package: libgpiod2.1.3
 Source: libgpiod2.1.3
 Version: 2.1.3
-Architecture: armhf
-Maintainer: Alejandro Mata <alejandromata@nureva.com>
-Depends: libc6 (>= 2.4)
-Filename: ./libgpiod2.1.3-dev_armhf.deb
-Size: 9180
-MD5sum: 0d3d92aa91e336a16e16cc1b8df56570
-SHA1: 80bef791aa7f4f6ef162f09e5db3066af3d5883e
-SHA256: df9acc6cabb5a4d746f8c1d5191c3af0545a21628e8ab0feea8746dd5310d621
-Section: universe/libs
-Priority: optional
-Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
-Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
-
-Package: libgpiod2.1.3
-Source: libgpiod2.1.3
-Version: 2.1.3
 Architecture: amd64
 Maintainer: Alejandro Mata <alejandromata@nureva.com>
 Depends: libc6 (>= 2.4)
@@ -33,46 +17,46 @@ Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
 Package: libgpiod2.1.3
 Source: libgpiod2.1.3
 Version: 2.1.3
-Architecture: arm64
+Architecture: armhf
 Maintainer: Alejandro Mata <alejandromata@nureva.com>
-Depends: libstdc++6 (>= 12.3.0), libgcc-s1 (>= 9.4.0), libc6 (>= 2.4)
-Filename: ./libgpiod2.1.3-dev_arm64.deb
-Size: 9208
-MD5sum: 3f4e37030eb2599430bc4c73241828f1
-SHA1: 3cea036584dd7c05a0b3ea6386cdeeb1b09f4346
-SHA256: f991ec1582719b9dab57a59170c1865cc009feac6460ef63482ac41492846d34
+Depends: libc6 (>= 2.4)
+Filename: ./libgpiod2.1.3_armhf.deb
+Size: 167158
+MD5sum: 82fb38da0b56ded2fe97abdd002cb4f2
+SHA1: e9dba45c0f256c8c9222293a606d76fe71dda593
+SHA256: 8d12ed72a685b669acf28eacdf453d615d30877a53376840dd9b0054175e0b11
 Section: universe/libs
 Priority: optional
 Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
 Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
 
 Package: libgpiod2.1.3
+Source: libgpiod2.1.3
+Version: 2.1.3
+Architecture: arm64
+Maintainer: Alejandro Mata <alejandromata@nureva.com>
+Depends: libc6 (>= 2.4)
+Filename: ./libgpiod2.1.3_arm64.deb
+Size: 177730
+MD5sum: 7a6228f0b4db2e32e65759a48cc4c509
+SHA1: 7abf1802d31a11fa8e12b43390dc75af8b310bcd
+SHA256: c3d7e0c11760ad4b7b192c79bc773d705212c1cf266f41717f82dc39688801c1
+Section: universe/libs
+Priority: optional
+Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
+Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
+
+Package: libgpiod2.1.3-dev
 Source: libgpiod2.1.3
 Version: 2.1.3
 Architecture: armhf
 Maintainer: Alejandro Mata <alejandromata@nureva.com>
 Depends: libc6 (>= 2.4)
-Filename: ./libgpiod2.1.3_armhf.deb
-Size: 167156
-MD5sum: 1c357efc111c20e1891a9368169be26a
-SHA1: 76ded45db78aa19b37f0a1b58281f522e635129d
-SHA256: fe111f6c71e870ed604fd12c1afba8eb3d993a8d44e349529436a4b92a25d2a9
-Section: universe/libs
-Priority: optional
-Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
-Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
-
-Package: libgpiod2.1.3
-Source: libgpiod2.1.3
-Version: 2.1.3
-Architecture: arm64
-Maintainer: Alejandro Mata <alejandromata@nureva.com>
-Depends: libstdc++6 (>= 12.3.0), libgcc-s1 (>= 9.4.0), libc6 (>= 2.4)
-Filename: ./libgpiod2.1.3_arm64.deb
-Size: 177978
-MD5sum: 67517bb1497528dc8aae734f85bcae48
-SHA1: 73c7ca5351eab74a25cb0e1be7f857f49a2b320f
-SHA256: ed781653b87db7505face73b792fa7b734ec258cc226ea993d2a520bdb397ef4
+Filename: ./libgpiod2.1.3-dev_armhf.deb
+Size: 9186
+MD5sum: bf73e68a3fd49ec6f8b5783137da28ef
+SHA1: 951aee319bba7ee52bb6aeef7d664652d71ca7d5
+SHA256: b23eb64ac844c3ab72c15149a11241019ee691a8f62f2f928d13c9110b46527b
 Section: universe/libs
 Priority: optional
 Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
@@ -89,6 +73,22 @@ Size: 9198
 MD5sum: 88a56ac211bc65ff704721f674ebef13
 SHA1: b1ca3b8b543342fb1ac84aba937e729cacacee10
 SHA256: 4cc1088e38d97b6587db6c0890e36e154efa3e1794ee35d8739e9936bd7437a4
+Section: universe/libs
+Priority: optional
+Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
+Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
+
+Package: libgpiod2.1.3-dev
+Source: libgpiod2.1.3
+Version: 2.1.3
+Architecture: arm64
+Maintainer: Alejandro Mata <alejandromata@nureva.com>
+Depends: libc6 (>= 2.4)
+Filename: ./libgpiod2.1.3-dev_arm64.deb
+Size: 9186
+MD5sum: 25abe5850d50c737c598dd0ecee622b6
+SHA1: 6b8a5d3b4a4275a99f359905a062a9061b62c775
+SHA256: 9b810a9065405bb53dcd558f7c7301a11f39775b363b0204c99b14a409c63e57
 Section: universe/libs
 Priority: optional
 Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
