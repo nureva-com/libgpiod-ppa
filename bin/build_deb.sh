@@ -79,7 +79,7 @@ Priority: optional
 Source: libgpiod$LIBGPIOD_VERSION
 Architecture: $ARCH_SUFFIX
 Depends: libc6 (>= 2.4)
-Maintainer: Alejandro Mata <alejandromata@nureva.com>
+Maintainer: Kevin Lutzer <kevinlutzer@nureva.com>
 Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
 Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
 EOF
@@ -93,7 +93,7 @@ Priority: optional
 Source: libgpiod$LIBGPIOD_VERSION
 Architecture: $ARCH_SUFFIX
 Depends: libc6 (>= 2.4)
-Maintainer: Alejandro Mata <alejandromata@nureva.com>
+Maintainer: Kevin Lutzer <kevinlutzer@nureva.com>
 Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
 Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
 EOF
