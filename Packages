@@ -17,6 +17,22 @@ Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
 Package: libgpiod2.1.3
 Source: libgpiod2.1.3
 Version: 2.1.3
+Architecture: armhf
+Maintainer: Kevin Lutzer <kevinlutzer@nureva.com>
+Depends: libc6 (>= 2.4)
+Filename: ./libgpiod2.1.3_armhf.deb
+Size: 167178
+MD5sum: d988fb7f285c9da687699e6b160cdc65
+SHA1: 9bc818c7b8dfb56f74d0604b677f6a820d5cd3f0
+SHA256: 33c8e4c11b838a65f1cdb2c36f60819066bcfd188cf3a227d98dd5e8a57750cd
+Section: universe/libs
+Priority: optional
+Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
+Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
+
+Package: libgpiod2.1.3
+Source: libgpiod2.1.3
+Version: 2.1.3
 Architecture: arm64
 Maintainer: Kevin Lutzer <kevinlutzer@nureva.com>
 Depends: libc6 (>= 2.4)
@@ -30,17 +46,17 @@ Priority: optional
 Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
 Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
 
-Package: libgpiod2.1.3
+Package: libgpiod2.1.3-dev
 Source: libgpiod2.1.3
 Version: 2.1.3
 Architecture: armhf
 Maintainer: Kevin Lutzer <kevinlutzer@nureva.com>
 Depends: libc6 (>= 2.4)
-Filename: ./libgpiod2.1.3_armhf.deb
-Size: 167178
-MD5sum: d988fb7f285c9da687699e6b160cdc65
-SHA1: 9bc818c7b8dfb56f74d0604b677f6a820d5cd3f0
-SHA256: 33c8e4c11b838a65f1cdb2c36f60819066bcfd188cf3a227d98dd5e8a57750cd
+Filename: ./libgpiod2.1.3-dev_armhf.deb
+Size: 9204
+MD5sum: 12b84c2988112a00ca5b02c1e821cda9
+SHA1: 7d41ab842f16a22b499f22d10691a2c0930073ba
+SHA256: c09409e40288384eaec7f946f5e5e5e438d20268721770a09c32861f7711458a
 Section: universe/libs
 Priority: optional
 Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
@@ -73,22 +89,6 @@ Size: 9182
 MD5sum: 673ea546d1f275800ec77cb6d7df6320
 SHA1: 117cc033a1215e76766c67e974f58241e241bff8
 SHA256: 8e62502d429b677e100927c7974d21666d4ff6fa257cebcc9cb6d273be111de2
-Section: universe/libs
-Priority: optional
-Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
-Description: libgpiod 2.x for Ubuntu Linux, made for Ubuntu 24.04
-
-Package: libgpiod2.1.3-dev
-Source: libgpiod2.1.3
-Version: 2.1.3
-Architecture: armhf
-Maintainer: Kevin Lutzer <kevinlutzer@nureva.com>
-Depends: libc6 (>= 2.4)
-Filename: ./libgpiod2.1.3-dev_armhf.deb
-Size: 9204
-MD5sum: 12b84c2988112a00ca5b02c1e821cda9
-SHA1: 7d41ab842f16a22b499f22d10691a2c0930073ba
-SHA256: c09409e40288384eaec7f946f5e5e5e438d20268721770a09c32861f7711458a
 Section: universe/libs
 Priority: optional
 Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
