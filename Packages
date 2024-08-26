@@ -37,10 +37,10 @@ Architecture: arm64
 Maintainer: Kevin Lutzer <kevinlutzer@nureva.com>
 Depends: libc6 (>= 2.4)
 Filename: ./libgpiod2.1.3_arm64.deb
-Size: 177882
-MD5sum: 7855df2e8368b5ad7452ad81356f5121
-SHA1: 23b9f628d217454b511d9bc971a0dd3c76235e16
-SHA256: 0480a236f49b4e0279a889c9823591ef1cbef28258b1d3ec1d1faa3d99f5c4ec
+Size: 178008
+MD5sum: d02b2f3d2610e473b7d138eae051370b
+SHA1: afd0371eaa18b78b8d3ca7f9fe27c1f67418cc97
+SHA256: 7652f61c4f70013307a2d79382dbc0a76bf373861a4bc52d9332705bcd8e8059
 Section: universe/libs
 Priority: optional
 Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
@@ -85,10 +85,10 @@ Architecture: arm64
 Maintainer: Kevin Lutzer <kevinlutzer@nureva.com>
 Depends: libc6 (>= 2.4)
 Filename: ./libgpiod2.1.3-dev_arm64.deb
-Size: 9204
-MD5sum: 72de6558a9a46915ebd343bb18aa5fea
-SHA1: 8b908f161245325d91473b2ca3c8b1e9dc43f1e9
-SHA256: b1d4e99eb4d5b00f0e8487501cbd133b4c81ae32e3984e079551dc70c6d4fc7b
+Size: 9182
+MD5sum: 673ea546d1f275800ec77cb6d7df6320
+SHA1: 117cc033a1215e76766c67e974f58241e241bff8
+SHA256: 8e62502d429b677e100927c7974d21666d4ff6fa257cebcc9cb6d273be111de2
 Section: universe/libs
 Priority: optional
 Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
